@@ -1,4 +1,4 @@
-Example project for using system calls in a threaded process. Useful if for instance you want to use python instead of c++ for networking. The script is executed in a different thread, so it doesn't block drawing functions etc...
+Openframeworks example project for using system calls in a threaded process. Useful if for instance you want to use python instead of c++ for networking. The script is executed in a different thread, so it doesn't block drawing functions etc...
 
 The project is just for OSX systems and has been tested on OF09.
 
@@ -12,5 +12,5 @@ The project is just for OSX systems and has been tested on OF09.
   rsync -aved *.py "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/"
 
   ```
-  
+
 - The example uses ofxJSON. Which takes away the pain to parse json response strings.
